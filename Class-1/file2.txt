@@ -1,0 +1,15 @@
+loream Computers will teach in schools.
+
+True: The text mentions that computers will play a role in teaching lessons in the future.
+Virtual reality will help students see their classroom in 3D.
+
+True: The text indicates that virtual reality will create a 3D classroom environment for students.
+We will only use our brain to communicate with computers.
+
+False: While the text does mention advanced communication between humans and computers through brain-computer interfaces, it does not state that this will be the only mode of communication.
+Your clothes will include a TV and a watch.
+
+True: The text anticipates clothing with soft TV screens and mentions jackets with a soft watch.
+Nanobots will go to work for us.
+
+True: The text mentions that nanobots, which are highly advanced robots, will perform tasks like cleaning homes, mending clothes, and preparing meals.
