@@ -1,0 +1,31 @@
+{
+  "name": "course-node",
+  "version": "1.0.0",
+  "description": "couse node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RychardGutierrez/course-node-dev.git"
+  },
+  "keywords": [
+    "couse",
+    "node",
+    "node.js",
+    "node"
+  ],
+  "author": "Richard Gutierrez Condori - chardev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RychardGutierrez/course-node-dev/issues"
+  },
+  "homepage": "https://github.com/RychardGutierrez/course-node-dev#readme",
+  "dependencies": {
+    "picocolors": "1.0.0"
+  },
+  "devDependencies": {
+    "semistandard": "s17.0.0"
+  }
+}
