@@ -1,0 +1,20 @@
+{
+  "name": "class-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-http.js",
+  "scripts": {
+    "dev-1": "nodemon 1-http",
+    "dev-2": "nodemon 2.routing.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "semistandard": "^17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "semistandard"
+  }
+}
