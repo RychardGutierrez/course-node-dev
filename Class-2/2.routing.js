@@ -21,10 +21,24 @@ const processRequest = (req, res) => {
 
     case 'POST':
       switch (url) {
-        case '/pokemon/ditto':
-          res.statusCode = 200;
-          res.setHeader('Content-Type', 'application/json');
-          return res.end(JSON.stringify(dittoJSON));
+        case '/pokemon': {
+          let body = '';
+          req.on('data', (chunk) => {
+            body += chunk.toString();
+          });
+
+          req.on('end', () => {
+            const data = JSON.parse(body);
+            // Call base data to save info
+
+            res.writeHead(201, {
+              // eslint-disable-next-line comma-dangle
+              'content-Type': 'application/json; charset=utf-8',
+            });
+            res.end(JSON.stringify(data));
+          });
+          break;
+        }
 
         default:
           res.status = 404;
