@@ -1,0 +1,35 @@
+### Get all movies
+GET http://localhost:3000/movies
+
+
+### Gel movie by ID
+GET http://localhost:3000/movies/652ab5e5671aac4d79c41f8e
+
+### Get all movies by gender
+GET http://localhost:3000/movies?genre=Drama
+
+### Creat a new Movie
+POST http://localhost:3000/movies
+Content-Type: application/json
+
+{
+    "title": "SELECT * FROM users",
+    "year": 1994,
+    "director": "Quentin Tarantino",
+    "duration": 178,
+    "poster": "https://www.themoviedb.org/t/p/original/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+    "genre": ["Crime", "Drama"]
+   
+}
+
+### Update a Movie
+PATCH http://localhost:3000/movies/652ab5e5671aac4d79c41f8e
+Content-Type: application/json
+
+{
+    "year": 2001,
+    "genre": ["Drama", "Romance"]
+}
+
+### Delete a movie
+DELETE http://localhost:3000/movies/652ab5e5671aac4d79c41f8e
